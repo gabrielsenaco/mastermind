@@ -41,11 +41,11 @@ class Game
   end
 
   def request_decrypt_colors
-    request_message = if tries.positive?
+    request_message = if tries > 1
                         "Try again:\nColors:
     #{GameInput::VALID_COLORS.join(', ')}"
                       else
-                        'Insert colors to decrypt:'
+                        'Insert colors to break:'
                       end
     colors_breaker = request_colors(request_message, players[:bot_codebreaker],
                                     board.history.filter { |item| item != :messages })
