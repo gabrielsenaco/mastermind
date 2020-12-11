@@ -11,7 +11,8 @@ This game is played by two players: a codemaker and a codebreaker.
 - The goal of the codebreaker is to try to decipher the colors that the codemaker made.
 
 ### Valid colors
-- The permitted colors are:
+The permitted colors are:
+
 | Initials | Real name |
 |----------|-----------|
 | R        | Red       |
