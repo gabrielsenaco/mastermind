@@ -2,6 +2,7 @@
 
 ## How play
 Play on repl.it
+
 [![](https://repl.it/badge/github/gabrielsenaco/mastermind)](https://repl.it/@gabrielsenaco/mastermind)
 ## Tutorial
 This game is played by two players: a codemaker and a codebreaker.
