@@ -1,10 +1,16 @@
 # mastermind
 Mastermind Game based on the Swaszek algorithm
 
-## How play
-Play on repl.it
+## How to play
+Make sure that you are using Ruby 2.7+
+1. Clone the repository
+2. run game
+  ```
+  cd mastermind/
+  ruby app.rb
+  ```
+3. fun =)
 
-[![](https://repl.it/badge/github/gabrielsenaco/mastermind)](https://repl.it/@gabrielsenaco/mastermind)
 ## Tutorial
 This game is played by two players: a codemaker and a codebreaker.
 - The codemaker's goal is to make a secret color combination
